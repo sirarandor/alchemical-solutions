@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchems:block/cinnabar_ore",
+    "up": "alchems:block/cinnabar_ore",
+    "north": "alchems:block/cinnabar_ore",
+    "east": "alchems:block/cinnabar_ore",
+    "south": "alchems:block/cinnabar_ore",
+    "west": "alchems:block/cinnabar_ore",
+    "particle": "alchems:block/cinnabar_ore"
+  },
+  "render_type": "solid"
+}

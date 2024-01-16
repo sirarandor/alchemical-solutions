@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchems:block/novoglyphb",
+    "up": "alchems:block/novoglypht",
+    "north": "alchems:block/novoglyphb",
+    "east": "alchems:block/novoglyphb",
+    "south": "alchems:block/novoglyphb",
+    "west": "alchems:block/novoglyphb",
+    "particle": "alchems:block/novoglyphb"
+  },
+  "render_type": "solid"
+}

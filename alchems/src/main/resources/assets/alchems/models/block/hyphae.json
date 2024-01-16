@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alchems:block/hyphaeb",
+    "up": "alchems:block/hyphaeb",
+    "north": "alchems:block/hyphaeb",
+    "east": "alchems:block/hyphaeb",
+    "south": "alchems:block/hyphaeb",
+    "west": "alchems:block/hyphaeb",
+    "particle": "alchems:block/hyphaeb"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 57,
+  "_type": "tab",
+  "definition": {
+    "name": "Alchemical Solutions",
+    "icon": {
+      "value": "Blocks.AMETHYST_CLUSTER"
+    },
+    "showSearch": false
+  }
+}

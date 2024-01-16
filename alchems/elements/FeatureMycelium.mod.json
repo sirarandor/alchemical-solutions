@@ -1,0 +1,13 @@
+{
+  "_fv": 57,
+  "_type": "feature",
+  "definition": {
+    "generationStep": "SURFACE_STRUCTURES",
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:MyceliumCave"
+      }
+    ],
+    "featurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"feature_container\" deletable=\"false\" x=\"20\" y=\"6\"><value name=\"feature\"><block type=\"feature_huge_brown_mushroom\"><field name=\"radius\">8</field><value name=\"cap\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Hyphae</field></block></value><value name=\"stem\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:Hyphae</field></block></value></block></value><next><block type=\"placement_count\"><value name=\"count\"><block type=\"int_provider_constant\"><field name=\"value\">4</field></block></value><next><block type=\"placement_in_square\"><next><block type=\"placement_heightmap\"><field name=\"heightmap\">WORLD_SURFACE</field><next><block type=\"placement_biome_filter\"></block></next></block></next></block></next></block></next></block></xml>"
+  }
+}
