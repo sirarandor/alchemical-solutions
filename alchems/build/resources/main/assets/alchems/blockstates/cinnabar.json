@@ -1,7 +1,16 @@
 {
   "variants": {
-    "": {
+    "axis=x": {
+      "model": "alchems:block/cinnabar",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
       "model": "alchems:block/cinnabar"
+    },
+    "axis=z": {
+      "model": "alchems:block/cinnabar",
+      "x": 90
     }
   }
 }

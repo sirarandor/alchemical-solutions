@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\stripClient\output.jar", "--server", "C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\stripServer\output.jar", "--ann", "1.20.1", "--output", "C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\arandor\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.7\mergetool-1.1.7-fatjar.jar
+Working Dir: C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

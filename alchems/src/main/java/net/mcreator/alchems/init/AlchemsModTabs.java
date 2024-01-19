@@ -26,7 +26,10 @@ public class AlchemsModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.alchems.alchemical_solutions")).icon(() -> new ItemStack(Blocks.AMETHYST_CLUSTER)).displayItems((parameters, tabData) -> {
 				tabData.accept(AlchemsModItems.MERCURY.get());
 				tabData.accept(AlchemsModBlocks.NOVOGLYPH.get().asItem());
-				tabData.accept(AlchemsModBlocks.HYPHAE.get().asItem());
+				tabData.accept(AlchemsModItems.SULFUR_DUST.get());
+				tabData.accept(AlchemsModItems.CHARGED_QUARTZ_CRYSTAL.get());
+				tabData.accept(AlchemsModItems.BEAM_THROWER.get());
+				tabData.accept(AlchemsModItems.ROSE_INGOT.get());
 			})
 
 					.build());

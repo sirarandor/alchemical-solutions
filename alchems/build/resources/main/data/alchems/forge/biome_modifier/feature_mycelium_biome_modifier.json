@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "alchems:mycelium_cave",
-  "features": "alchems:feature_mycelium",
-  "step": "surface_structures"
-}

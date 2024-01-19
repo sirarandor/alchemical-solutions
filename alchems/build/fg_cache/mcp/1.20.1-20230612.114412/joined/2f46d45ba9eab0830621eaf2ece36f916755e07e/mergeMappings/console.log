@@ -1,0 +1,16 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\mergeMappings\output.jar"
+Classpath:   C:\Users\arandor\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  C:\Users\arandor\Documents\GitHub\alchemical-solutions\alchems\build\fg_cache\mcp\1.20.1-20230612.114412\joined\2f46d45ba9eab0830621eaf2ece36f916755e07e\mergeMappings\output.jar

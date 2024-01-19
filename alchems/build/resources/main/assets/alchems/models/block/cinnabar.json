@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "alchems:block/cinnabar_ore",
-    "up": "alchems:block/cinnabar_ore",
-    "north": "alchems:block/cinnabar_ore",
-    "east": "alchems:block/cinnabar_ore",
-    "south": "alchems:block/cinnabar_ore",
-    "west": "alchems:block/cinnabar_ore",
-    "particle": "alchems:block/cinnabar_ore"
+    "down": "alchems:block/cinnabar_ore_top",
+    "up": "alchems:block/cinnabar_ore_top",
+    "north": "alchems:block/cinnabare_ore_side",
+    "east": "alchems:block/cinnabare_ore_side",
+    "south": "alchems:block/cinnabare_ore_side",
+    "west": "alchems:block/cinnabare_ore_side",
+    "particle": "alchems:block/cinnabar_ore_top"
   },
   "render_type": "solid"
 }

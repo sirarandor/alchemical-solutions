@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "basalt_deltas",
+  "features": "alchems:cinnabar_patch",
+  "step": "underground_ores"
+}

@@ -30,9 +30,11 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.alchems.init.AlchemsModTabs;
+import net.mcreator.alchems.init.AlchemsModMenus;
 import net.mcreator.alchems.init.AlchemsModItems;
 import net.mcreator.alchems.init.AlchemsModEntities;
 import net.mcreator.alchems.init.AlchemsModBlocks;
+import net.mcreator.alchems.init.AlchemsModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -53,12 +55,13 @@ public class AlchemsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		AlchemsModBlocks.REGISTRY.register(bus);
-
+		AlchemsModBlockEntities.REGISTRY.register(bus);
 		AlchemsModItems.REGISTRY.register(bus);
 		AlchemsModEntities.REGISTRY.register(bus);
 
 		AlchemsModTabs.REGISTRY.register(bus);
 
+		AlchemsModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

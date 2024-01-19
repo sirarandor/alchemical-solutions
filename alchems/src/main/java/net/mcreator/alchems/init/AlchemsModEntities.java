@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.alchems.entity.MechanicalHoundEntity;
+import net.mcreator.alchems.entity.BeamThrowerBeamEntity;
 import net.mcreator.alchems.AlchemsMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -26,6 +27,8 @@ public class AlchemsModEntities {
 			EntityType.Builder.<MechanicalHoundEntity>of(MechanicalHoundEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(MechanicalHoundEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BeamThrowerBeamEntity>> BEAM_THROWER_BEAM = register("projectile_beam_thrower_beam", EntityType.Builder.<BeamThrowerBeamEntity>of(BeamThrowerBeamEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(BeamThrowerBeamEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa ",
+    "bca",
+    "aa "
+  ],
+  "key": {
+    "a": {
+      "item": "alchems:rose_ingot"
+    },
+    "b": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "c": {
+      "item": "alchems:charged_quartz_crystal"
+    }
+  },
+  "result": {
+    "item": "alchems:beam_thrower",
+    "count": 1
+  }
+}
